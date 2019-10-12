@@ -163,7 +163,7 @@ int SmartPlayer::chooseMove(const Board& b, Side s) const
 {
 	int bestHole = 2;
 	int value = 0;
-	int depth = 7;
+	int depth = 4;
 	AlarmClock ac(4900);
 	minimax(b, s, bestHole, value, ac, depth, s);
 
