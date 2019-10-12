@@ -1,1 +1,1 @@
-# CS32
+# CS 32 - Data Structures and Algorithms
